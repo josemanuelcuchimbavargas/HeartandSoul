@@ -7,14 +7,14 @@ class cmysql
 	
 	public function conectar()
 	{
-		$dbase = 'travel';
+		$dbase = 'heartandsoul';
 		$user = 'root';
-		$pass = '1234';
+		$pass = '';
 		$dsn = "mysql:dbname=".$dbase.";host=localhost";    
 
 		try 
 		{
-			$link = new PDO( $dsn, $user, $pass );
+			$link = new PDO( $dsn, $user, $pass );          
 			return $link;
 		} 
 		catch (PDOException $e) 
