@@ -116,10 +116,7 @@
        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
        <script type="text/javascript" src="js/jquery-ui.min.js" ></script>
-       <script src="js/fondo.js" type="text/javascript"></script>        
-        <script type="text/javascript">
-        $.material.init();
-        </script>
+       <script src="js/fondo.js" type="text/javascript"></script>               
     </body>
    
 </html>

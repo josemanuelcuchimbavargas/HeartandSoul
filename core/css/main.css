@@ -16,7 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		margin-top:5px; 
+		margin-top:0px; 
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -26,8 +26,7 @@
 	body {
 		line-height: 1;        
 	}
-
-.url{cursor:url(../img/cursor.ico), auto;}    
+.url{cursor:url(../img/cursor.png), auto;}  
 /*.url{cursor:url(http://falconmasters.com/img/cursor.gif), auto;}*/
 
 
