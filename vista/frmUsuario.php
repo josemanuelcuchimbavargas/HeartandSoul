@@ -16,9 +16,9 @@
    
     <header>
        
-<div class="navbar navbar-info">
-  <div class="container-fluid">
-    <div class="navbar-header">
+<div  class="navbar navbar-info">
+  <div  class="container-fluid">
+    <div  class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-material-light-blue-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -26,7 +26,7 @@
       </button>      
        <i class="navbar-brand">Carlos Garcia</i><img class="navbar-brand" href="javascript:void(0)" src="../core/img/user.png">
     </div>
-    <div class="navbar-collapse  navbar-material-light-blue-collapse">                            
+    <div  class="navbar-collapse  navbar-material-light-blue-collapse">                            
       <form class="navbar-form navbar-right">
         <div class="form-group">
           <input type="text" class="form-control col-sm-8" placeholder="Buscar">
@@ -50,13 +50,13 @@
 
     </div>
 
-    
+    <!--
     <footer id="footer">
         <ul class="nav navbar-nav">
           <i class="navbar-brand">BIENVENIDO</i> <img class="navbar-brand" href="javascript:void(0)" src="../core/img/logo.png"> <i class="navbar-brand">HEART AND SOUL</i>                       
       </ul>
     </footer>
-    
+    -->
     
             <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>         
             <script src="../core/libreria/desing/js/material.min.js" type="text/javascript"></script>            

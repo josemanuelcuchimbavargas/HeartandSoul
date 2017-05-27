@@ -1601,3 +1601,11 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+
+
+
+		#noborder{
+			border-color: red;
+
+		}
