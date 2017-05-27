@@ -6,7 +6,7 @@
         
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../core/libreria/bootstrap/css/bootstrap.min.css">           
+        <link rel="stylesheet" type="text/css" href="../core/libreria/bootstrap/css/bootstrap.css">           
         <link rel="stylesheet" type="text/css" href="../core/libreria/bootstrap/css/bootstrap-theme.min.css">           
         
         <link rel="stylesheet" type="text/css" href="../core/libreria/desing/css/bootstrap-material-design.css">  
@@ -41,9 +41,9 @@
 
 <div class="container-fluid">       
 <div class="row">
-    <div class="col-lg-12" style=" margin-top:-10px;">
+    <div class="col-lg-12">
         <div class="span11" style="overflow: auto">
-    <div class="row-fluid">
+            <div class="row-fluid">
 
         <div class="circle col-lg-3" data-toggle="modal" data-target="#simple-dialog" style="cursor:pointer;"></div>
         <div class="circle col-lg-3" data-toggle="modal" data-target="#simple-dialog" style="cursor:pointer;"></div>
@@ -94,8 +94,7 @@
         <div class="circle col-lg-3"></div>
         <div class="circle col-lg-3"></div>
     </div>
-</div>
-             
+        </div>             
     </div>
 </div>
   <div class="row">
