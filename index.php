@@ -22,7 +22,7 @@
         <h1>
             <p>               
                 <i class="icofont icofont-users-alt-5">:</i><i style ="width:2px; heigth:2px; font-size:30px;">1000</i>            
-                 <i>online</i>
+                 <i>onlines</i>
             </p>
         </h1>   
         
