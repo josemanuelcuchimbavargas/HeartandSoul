@@ -1608,3 +1608,28 @@
 			border-color: red;
 
 		}
+
+
+
+    
+.row-fluid {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.row-fluid .col-lg-3 {
+     display: inline-block;
+     float: none;
+}
+
+
+.circle {
+   background: red;
+    border-radius: 200px;
+    color: white;
+    height: 60px;
+    width: 60px;
+    background-image: url(https://ae01.alicdn.com/kf/HTB1ENvtJFXXXXbNXFXXq6xXFXXX4/Scarlett-Johansson-Foto-fondo-de-pantalla-Personalizado-Mural-de-La-Pared-3D-Wallpaper-Ni%C3%B1o-Ni%C3%B1a-decoraci%C3%B3n.jpg_640x640.jpg);
+    background-size: 100%;
+   } 
+   

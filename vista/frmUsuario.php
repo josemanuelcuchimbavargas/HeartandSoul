@@ -39,10 +39,75 @@
 </header>
 
 <div class="container-fluid">   
-<div class="row">
-    <div class="col-lg-12" style="background:pink;">
-        algodón, que nunca pudo terminar su casa de ensueño. La mansión de Longwood es una casa extraordinaria construida antes de la Guerra, que aun, hoy en día, se encuentra en Natchez, Mississippi. Es la casa octogonal más grande de los Estados Unidos, a pesar de la adornada fachada de este disparatado millonario, la apariencia de Longwood es completamente engañosa. Al entrar a esta histórica mansión se ingresa de inmediato a una surrealista cápsula del tiempo con la construcción inconclusa de un lugar con 150 años de antigüedad.                 
+	<div class="row">
+    <div style="padding:0px;" class="col-lg-12" style="background:pink;">
+
+
+
+<div class="span11" style="overflow: auto">
+    <div class="row-fluid">
+
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+     	<div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+    	<div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>        
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+    	<div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>       
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+    	<div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>       
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+    	<div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>        
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+    	<div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div> 
+        <div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3"></div>
+
+
+
     </div>
+</div>
+
+
+
+
+  
+
+
+      </div>
 </div>
   <div class="row">
     <div class="col-sm-2" style="background:red;">
