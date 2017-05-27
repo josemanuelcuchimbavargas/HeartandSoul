@@ -45,9 +45,9 @@
         <div class="span11" style="overflow: auto">
     <div class="row-fluid">
 
-        <div class="circle col-lg-3"></div>
-        <div class="circle col-lg-3"></div>
-     	<div class="circle col-lg-3"></div>
+        <div class="circle col-lg-3" data-toggle="modal" data-target="#simple-dialog" style="cursor:pointer;"></div>
+        <div class="circle col-lg-3" data-toggle="modal" data-target="#simple-dialog" style="cursor:pointer;"></div>
+     	<div class="circle col-lg-3" data-toggle="modal" data-target="#simple-dialog" style="cursor:pointer;"></div>
         <div class="circle col-lg-3"></div> 
         <div class="circle col-lg-3"></div>
         <div class="circle col-lg-3"></div> 
@@ -150,7 +150,7 @@
             
             </div>            
 
-    <div class="col-sm-2" style="background:blue;">            
+    <div class="col-sm-2">            
         <article id="contact2" style="background:yellow;">
               <!--bloque final-->
               Es una belleza, ¿no? Esta fotografía fue después de ser abandonada en 1930 por la familia de un barón del algodón, que nunca pudo terminar su casa de ensueño. La mansión de Longwood es una casa extraordinaria construida antes de la Guerra, que aun, hoy en día, se encuentra en Natchez, Mississippi. Es la casa octogonal más grande de 
