@@ -6,12 +6,11 @@
 
     <head>
         <title>HeartandSoul</title>
-        <link rel="stylesheet" type="text/css" href="core/libreria/materialDesing/css/bootstrap.min.css">            
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="core/libreria/materialDesing/css/bootstrap.min.css">                    
         <link rel="stylesheet" href="js/jquery-ui.min.css">
-        <link rel="stylesheet" type="text/css" href="core/css/main.css">
+        <link rel="stylesheet" type="text/css" href="core/css/main.css">        
         <link rel="stylesheet" type="text/css" href="core/libreria/materialDesing/css/bootstrap-social.css">
-     
+        <link rel="stylesheet" type="text/css" href="core/fonts/icofont/css/icofont.css">
     </head>
     <body>        
         
@@ -20,11 +19,13 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-2">
-    Lorem ipsum dolor siam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h1>
+            <p>               
+                <i class="icofont icofont-users-alt-5">:</i><i style ="width:2px; heigth:2px; font-size:30px;">1000</i>            
+                 <i>online</i>
+            </p>
+        </h1>   
+        
     </div>
 
 

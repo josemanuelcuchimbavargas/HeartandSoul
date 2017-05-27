@@ -48,6 +48,9 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+    p {
+      font-family:"Homer Simpson", cursive;
+    }
 
 /* Box Model */
 
