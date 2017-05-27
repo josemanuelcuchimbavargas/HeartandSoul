@@ -12,24 +12,29 @@
         <link rel="stylesheet" type="text/css" href="core/libreria/materialDesing/css/bootstrap-social.css">
         <link rel="stylesheet" type="text/css" href="core/fonts/icofont/css/icofont.css">
     </head>
-    <body>        
+    <body class="url">        
         
 
    
 <div class="container">
   <div class="row">
     <div class="col-sm-2">
+        <div class="form-group">
+            <h1>
+                <p><i>HEARTANDSOUL</i></p>                       
+            </h1>            
+        </div>  
         <h1>
-            <p>               
+            <p>                                                          
                 <i class="icofont icofont-users-alt-5">:</i><i style ="width:2px; heigth:2px; font-size:30px;">1000</i>            
-                 <i>onlines</i>
+                <i>online</i>                                 
             </p>
         </h1>   
         
     </div>
 
-
-
+      
+      
     <div class="col-sm-6">
      	
      		<img width="100%"  height="100%" class="img-responsive" src="core/img/logo.png">
@@ -82,11 +87,10 @@
     
   </div>
 </div>
-
-
-
+</div>
 
  <footer id="footer">
+                              
             <p class="copyright" style="color:white;">Autores: Manuel Vargas y Sebastian Hernandez     
              &copy; Todos los derechos reservados.</p>          
 
@@ -112,8 +116,10 @@
        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
        <script type="text/javascript" src="js/jquery-ui.min.js" ></script>
-       <script src="js/fondo.js" type="text/javascript"></script>
-            
+       <script src="js/fondo.js" type="text/javascript"></script>        
+        <script type="text/javascript">
+        $.material.init();
+        </script>
     </body>
    
 </html>

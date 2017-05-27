@@ -6,7 +6,7 @@ $(document).ready(function () {
                        var i = 0;
                        animate_loop = function() {      
                        $("body").animate({backgroundColor:colors[(i++)%colors.length]
-                       }, 100, function(){
+                       }, 1000, function(){
                            animate_loop();
                         });
                      }

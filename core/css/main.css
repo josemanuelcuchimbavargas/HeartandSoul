@@ -24,8 +24,13 @@
 	}
 
 	body {
-		line-height: 1;
+		line-height: 1;        
 	}
+
+.url{cursor:url(../img/cursor.ico), auto;}    
+/*.url{cursor:url(http://falconmasters.com/img/cursor.gif), auto;}*/
+
+
 
 	ol, ul {
 		list-style: none;
