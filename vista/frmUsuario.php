@@ -143,10 +143,105 @@
               <!--bloque final-->
               Es una belleza, ¿no? Esta fotografía fue después de ser abandonada en 1930 por la familia de un barón del algodón, que nunca pudo terminar su casa de ensueño. La mansión de Longwood es una casa extraordinaria construida antes de la Guerra, que aun, hoy en día, se encuentra en Natchez, Mississippi. Es la casa octogonal más grande de 
          </article>			
-        <article id="contact" style="background:purple;">
+        <article id="usuarios_populares">
               <!--bloque final-->
-              Es una belleza, ¿no? Esta fotografía fue después de ser abandonada en 1930 por la familia de un barón delalgodón, que nunca pudo terminar su casa de ensueño. La mansión de Longwood es una casa extraordinaria construida 
-            que nunca pudo terminar su casa de ensueño.su casa de ensueño.su casa de ensueño.
+  
+  <table class="table">
+  <thead> Usuarios Mas populares</thead>
+    <thead>
+      <tr>
+        <th>Puesto</th>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Sebastian Hernandez</td>
+      </tr>      
+      <tr>
+        <td>2</td>
+        <td>Manuel Vargas</td>
+      </tr>
+      <tr >
+        <td>3</td>
+        <td>Esperanza Gomes</td>
+      </tr>
+      <tr>        
+        <td>4</td>
+        <td>Toro Max</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>James Rodriguez</td>
+      </tr>
+      <tr >
+        <td>6</td>
+        <td>Joan Hernandez</td>
+      </tr>
+
+      <tr>
+        <td>7</td>
+        <td>Sebastian Hernandez</td>
+      </tr>      
+      <tr>
+        <td>8</td>
+        <td>Manuel Vargas</td>
+      </tr>
+      <tr >
+        <td>9</td>
+        <td>Esperanza Gomes</td>
+      </tr>
+      <tr>        
+        <td>10</td>
+        <td>Toro Max</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>James Rodriguez</td>
+      </tr>
+      <tr >
+        <td>12</td>
+        <td>Joan Hernandez</td>
+      </tr>
+
+      <tr>
+        <td>13</td>
+        <td>Sebastian Hernandez</td>
+      </tr>      
+      <tr>
+        <td>14</td>
+        <td>Manuel Vargas</td>
+      </tr>
+      <tr >
+        <td>15</td>
+        <td>Esperanza Gomes</td>
+      </tr>
+      <tr>        
+        <td>16</td>
+        <td>Toro Max</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>James Rodriguez</td>
+      </tr>
+      <tr >
+        <td>18</td>
+        <td>Joan Hernandez</td>
+      </tr>
+
+      <tr>
+        <td>19</td>
+        <td>Sebastian Hernandez</td>
+      </tr>      
+      <tr>
+        <td>20</td>
+        <td>Manuel Vargas</td>
+      </tr>
+      <tr >
+        
+    </tbody>
+  </table>
          </article>			
     </div>
       
