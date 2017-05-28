@@ -54,16 +54,16 @@
                 <form method="post" action="#">
                   <div class="field half first">
                     <label for="email">Email</label>
-                    <input class="letras" type="text" name="name" id="name" />
+                    <input class="form-control"  type="text" name="name" id="name" />
                   </div>
                   <div class="field half">
                     <label for="contraseña">Contrase&ntildea</label>
-                    <input type="password" name="contrasena" id="password" />
+                    <input type="password"  class="form-control" name="contrasena" id="password" />
                   </div>
 
                   <ul class="actions">
-                    <li><input type="submit" value="Iniciar Sesion" class="special" /></li>
-                    <li><input type="button" value="Registrarse" /></li>
+                    <li><input type="submit" class="btn btn-info" value="Iniciar Sesion" class="special" /></li>
+                    <li><input type="button" class="btn btn-danger" value="Registrarse" /></li>
                   </ul>
                 </form>
 
