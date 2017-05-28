@@ -19,8 +19,6 @@
 
 
 <div class="container-fluid">       
-
-
 		<div class="comments-container">
         <ul id="comments-list" class="comments-list">
             <li>
@@ -82,9 +80,7 @@
             </li>
         </ul>
     </div>
-
-
-
+</div>
 
 <style type="text/css">
 	
@@ -329,15 +325,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
     
     
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
@@ -347,9 +334,6 @@
       <script type="text/javascript">
         $.material.init();
       </script>                
-    
-    <script language="javascript">
 
-</script>
     </body>
 </html>
