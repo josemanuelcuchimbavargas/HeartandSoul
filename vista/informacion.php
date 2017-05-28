@@ -87,7 +87,7 @@
 
 .comments-container {
     margin: 60px auto 15px;
-    width: 768px;
+    width: 100%;
 }
  
 .comments-container h1 {

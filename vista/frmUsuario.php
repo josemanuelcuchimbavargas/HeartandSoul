@@ -369,6 +369,32 @@
     <div class="col-sm-8" style="background-color:rgba(0,0,0,0.1);  overflow-y:hidden; ">     	
      		<!--Bloque medio-->        
         
+        
+
+<div class="input-group">
+      <span class="input-group-addon">
+        <div class="circle col-lg-3"></div>
+               
+
+<br/>
+
+     </span>
+     
+      <input id="msg" type="text" class="form-control" name="#" placeholder="Actualiza tu estado">
+          <span class="input-group-btn">
+
+              <span class="btn" type="button">    
+
+                     <i class="fa fa-check  fa-2x" aria-hidden="true"></i>
+                     <i class="fa fa-file-video-o  fa-2x" aria-hidden="true"></i>
+                      <i class="fa fa-file-image-o  fa-2x" aria-hidden="true"></i>
+               </span>
+
+          </span>
+
+
+</div>
+
         <div id="noticias">
        
 
