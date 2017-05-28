@@ -2299,7 +2299,7 @@ legend {
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0);
 }
 .navbar .navbar-nav > .open > a,
 .navbar .navbar-nav > .open > a:hover,
@@ -2578,20 +2578,20 @@ fieldset[disabled] .navbar .btn-link:focus {
   color: rgba(255,255,255, 0.84);
 }
 .navbar.navbar-info {
-  background-color: #03a9f4;
+  background-color: white;
   color: rgba(255,255,255, 0.84);
 }
 .navbar.navbar-info .navbar-form .form-group input.form-control::-moz-placeholder,
 .navbar.navbar-info .navbar-form input.form-control::-moz-placeholder {
-  color: rgba(255,255,255, 0.84);
+  color: black;
 }
 .navbar.navbar-info .navbar-form .form-group input.form-control:-ms-input-placeholder,
 .navbar.navbar-info .navbar-form input.form-control:-ms-input-placeholder {
-  color: rgba(255,255,255, 0.84);
+  color:  black;
 }
 .navbar.navbar-info .navbar-form .form-group input.form-control::-webkit-input-placeholder,
 .navbar.navbar-info .navbar-form input.form-control::-webkit-input-placeholder {
-  color: rgba(255,255,255, 0.84);
+  color:  black;
 }
 .navbar.navbar-info .dropdown-menu {
   border-radius: 2px;

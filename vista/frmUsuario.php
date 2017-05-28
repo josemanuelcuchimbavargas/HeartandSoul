@@ -254,7 +254,7 @@
     </head>     
 <body onload="myFunction()">   
 <header>          
-<div  class="navbar navbar-info">
+<div  class="navbar navbar-info" >
   <div  class="container-fluid">
     <div  class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-material-light-blue-collapse">
@@ -262,12 +262,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>      
-       <i class="navbar-brand">Carlos Garcia</i><img class="navbar-brand" href="javascript:void(0)" src="../core/img/user.png">  
+       <i class="navbar-brand" style="color:black;">Carlos Garcia</i><img class="navbar-brand" href="javascript:void(0)" src="../core/img/user.png">  
     </div>    
     <div  class="navbar-collapse  navbar-material-light-blue-collapse">                            
       <form class="navbar-form navbar-right">
         <div class="form-group">
-          <input type="text" class="form-control col-sm-8" placeholder="Buscar">
+          <input type="text" class="form-control col-sm-8"  placeholder="Buscar">
         </div>
       </form>     
     </div>
@@ -277,18 +277,18 @@
 
 <div class="container-fluid">       
 <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12  hidden-md-up" style="position: fixed;">
         <div class="span11" style="overflow: auto">
             <div class="row-fluid">
-        <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-    </div>
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+            </div>
         </div>             
     </div>
 </div>
-  <div class="row">
-    <div id="chat" class="col-sm-2 hidden-md-up" style="background-color:rgba(0,0,0,0.1);">
+  <div class="row" >
+    <div  id="chat" class="col-sm-2 hidden-md-up" style="background-color:rgba(0,0,0,0.1);">
      <!--Bloque inicial--->          
-    <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#simple-dialog">Open dialog</button>-->    
+    <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#simple-dialog">O    pen dialog</button>-->    
 
     </div>     
       <!--Modals-->
@@ -352,109 +352,107 @@
 
     <div class="col-sm-2 hidden-md-up" id="populares ">            
         <article id="contact2" style="background:yellow;">
-            
          </article>			
         <article id="contact" style="background-color:rgba(0,0,0,0.1)">
-                  <article id="usuarios_populares">
-              <!--bloque final-->
-  
-  <table class="table">
-  <thead> Usuarios Mas populares</thead>
-    <thead>
-      <tr>
-        <th>Puesto</th>
-        <th>Nombre</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Sebastian Hernandez</td>
-      </tr>      
-      <tr>
-        <td>2</td>
-        <td>Manuel Vargas</td>
-      </tr>
-      <tr >
-        <td>3</td>
-        <td>Esperanza Gomes</td>
-      </tr>
-      <tr>        
-        <td>4</td>
-        <td>Toro Max</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>James Rodriguez</td>
-      </tr>
-      <tr >
-        <td>6</td>
-        <td>Joan Hernandez</td>
-      </tr>
+            <article id="usuarios_populares">              
+                <div class="table-responsive" style="position: fixed;">                      
+                  <table class="table   table-bordered table-hover table-condensed" style="color:black;">  
+                    <thead>
+                      <tr>
+                        <th>Puesto</th>
+                        <th>Nombre</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="success">
+                        <td>1</td>
+                        <td>Sebastian Hernandez</td>
+                      </tr>      
+                      <tr class="success" >
+                        <td>2</td>
+                        <td>Manuel Vargas</td>
+                      </tr>
+                      <tr class="success" >
+                        <td>3</td>
+                        <td>Esperanza Gomes</td>
+                      </tr>
+                      <tr class="success">        
+                        <td>4</td>
+                        <td>Toro Max</td>
+                      </tr>
+                      <tr class="success">
+                        <td>5</td>
+                        <td>James Rodriguez</td>
+                      </tr>
+                      <tr  class="success">
+                        <td>6</td>
+                        <td>Joan Hernandez</td>
+                      </tr>
 
-      <tr>
-        <td>7</td>
-        <td>Sebastian Hernandez</td>
-      </tr>      
-      <tr>
-        <td>8</td>
-        <td>Manuel Vargas</td>
-      </tr>
-      <tr >
-        <td>9</td>
-        <td>Esperanza Gomes</td>
-      </tr>
-      <tr>        
-        <td>10</td>
-        <td>Toro Max</td>
-      </tr>
-      <tr>
-        <td>11</td>
-        <td>James Rodriguez</td>
-      </tr>
-      <tr >
-        <td>12</td>
-        <td>Joan Hernandez</td>
-      </tr>
+                      <tr class="warning">
+                        <td>7</td>
+                        <td>Sebastian Hernandez</td>
+                      </tr>      
+                      <tr class="warning">
+                        <td>8</td>
+                        <td>Manuel Vargas</td>
+                      </tr>
+                      <tr class="warning" >
+                        <td>9</td>
+                        <td>Esperanza Gomes</td>
+                      </tr>
+                      <tr class="warning">        
+                        <td>10</td>
+                        <td>Toro Max</td>
+                      </tr>
+                      <tr class="warning">
+                        <td>11</td>
+                        <td>James Rodriguez</td>
+                      </tr>
+                      <tr class="warning" >
+                        <td>12</td>
+                        <td>Joan Hernandez</td>
+                      </tr>
 
-      <tr>
-        <td>13</td>
-        <td>Sebastian Hernandez</td>
-      </tr>      
-      <tr>
-        <td>14</td>
-        <td>Manuel Vargas</td>
-      </tr>
-      <tr >
-        <td>15</td>
-        <td>Esperanza Gomes</td>
-      </tr>
-      <tr>        
-        <td>16</td>
-        <td>Toro Max</td>
-      </tr>
-      <tr>
-        <td>17</td>
-        <td>James Rodriguez</td>
-      </tr>
-      <tr >
-        <td>18</td>
-        <td>Joan Hernandez</td>
-      </tr>
+                      <tr class="danger">
+                        <td>13</td>
+                        <td>Sebastian Hernandez</td>
+                      </tr>      
+                      <tr class="danger">
+                        <td>14</td>
+                        <td>Manuel Vargas</td>
+                      </tr>
+                      <tr class="danger">
+                        <td>15</td>
+                        <td>Esperanza Gomes</td>
+                      </tr>
+                      <tr class="danger">        
+                        <td>16</td>
+                        <td>Toro Max</td>
+                      </tr>
+                      <tr class="danger">
+                        <td>17</td>
+                        <td>James Rodriguez</td>
+                      </tr>
+                      <tr class="danger">
+                        <td>18</td>
+                        <td>Joan Hernandez</td>
+                      </tr>
 
-      <tr>
-        <td>19</td>
-        <td>Sebastian Hernandez</td>
-      </tr>      
-      <tr>
-        <td>20</td>
-        <td>Manuel Vargas</td>
-      </tr>
-      <tr >
-        
-    </tbody>
-  </table>
-         </article>	
+                      <tr class="danger">
+                        <td>19</td>
+                        <td>Sebastian Hernandez</td>
+                      </tr>      
+                      <tr class="danger">
+                        <td>20</td>
+                        <td>Manuel Vargas</td>
+                      </tr>
+                      <tr >
+
+                    </tbody>
+                  </table>
+                </div>
+             </article>	
          </article>			
     </div>
       
@@ -486,7 +484,7 @@
             <script>
                 function myFunction() {
                        var contenedorPrincipal;
-                       contenedorPrincipal = '<div class="container-fluid"><div class="comments-container"><ul id="comments-list" class="comments-list"><li><div class="comment-main-level"><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/18157903_1445673558817796_3598804664962280009_n.jpg?oh=e8a4f711b381d9f50811b3dbfbb0deb3&oe=59E99D70" alt=""></div> <div class="comment-box"><div class="comment-head"><h6 class="comment-name by-author"><a href="#">Manuel Vargas</a></h6><span>hace 20 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><iframe width="360" height="315" src="https://www.youtube.com/embed/Dyc1V1r0ajY" frameborder="0" allowfullscreen></iframe></div></div></div><ul class="comments-list reply-list"><li><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/18485406_1413935078665016_4345483548792990133_n.jpg?oh=9c38786bd3eaec92315f2d1575b908af&oe=59A91B2F" alt=""></div><div class="comment-box"><div class="comment-head"><h6 class="comment-name"><a href="#">Sebastian Hernandez</a></h6><span>hace 10 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><p>:"v</p></div></div></li></ul></li><li><div class="comment-main-level"><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/14494890_1648803718693611_7627774125963742039_n.jpg?oh=6815b84401f61c1aca4e4a1185aa5ec5&oe=59ABB405" alt=""></div><div class="comment-box"><div class="comment-head"><h6 class="comment-name"><a href="#">Esperanza Gomez</a></h6><span>hace 10 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><p> Hp que rico</p></div></div></div></li></ul></div></div>';
+                       contenedorPrincipal = '<div class="container-fluid"><div class="comments-container"><ul id="comments-list" class="comments-list"><li><div class="comment-main-level"><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/18157903_1445673558817796_3598804664962280009_n.jpg?oh=e8a4f711b381d9f50811b3dbfbb0deb3&oe=59E99D70" alt=""></div> <div class="comment-box"><div class="comment-head"><h6 class="comment-name by-author"><a href="#">Manuel Vargas</a></h6><span>hace 20 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><iframe width="360" height="315" src="https://www.youtube.com/embed/6GUm5g8SG4o" frameborder="0" allowfullscreen></iframe></div></div></div><ul class="comments-list reply-list"><li><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/18485406_1413935078665016_4345483548792990133_n.jpg?oh=9c38786bd3eaec92315f2d1575b908af&oe=59A91B2F" alt=""></div><div class="comment-box"><div class="comment-head"><h6 class="comment-name"><a href="#">Sebastian Hernandez</a></h6><span>hace 10 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><p>:"v</p></div></div></li></ul></li><li><div class="comment-main-level"><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/14494890_1648803718693611_7627774125963742039_n.jpg?oh=6815b84401f61c1aca4e4a1185aa5ec5&oe=59ABB405" alt=""></div><div class="comment-box"><div class="comment-head"><h6 class="comment-name"><a href="#">Esperanza Gomez</a></h6><span>hace 10 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><p> Hp que rico</p></div></div></div></li></ul></div></div>';
                        $("#noticias").html(contenedorPrincipal);
                 }
             </script>
