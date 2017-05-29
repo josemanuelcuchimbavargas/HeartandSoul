@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html>
 <html>
  <link rel="icon" type="image/png" href="core/img/favicon.png" />
     <head>
@@ -279,8 +279,26 @@
 <div class="row">
     <div class="col-lg-12  hidden-md-up" style="position: fixed;">
         <div class="span11" style="overflow: auto">
-            <div class="row-fluid">
+            <div class="row-fluid"  >
                 <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+
+
+
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>   
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>                   
             </div>
         </div>             
     </div>
@@ -318,7 +336,7 @@
     </div>
   </div>
 </div>
-    <div class="col-sm-8" style="background-color:rgba(0,0,0,0.1);  overflow-y:hidden; ">     	
+    <div class="col-sm-8" style="background-color:rgba(0,0,0,0.1);  overflow-y:hidden;margin-top: 90px; ">     	
      		<!--Bloque medio-->        
         <div class="input-group">
       <span class="input-group-addon">
@@ -356,7 +374,7 @@
         <article id="contact" style="background-color:rgba(0,0,0,0.1)">
             <article id="usuarios_populares">              
                 <div class="table-responsive" style="position: fixed;">                      
-                  <table class="table   table-bordered table-hover table-condensed" style="color:black;">  
+                  <table class="table   table-bordered table-hover table-condensed" style="top:0px;color:black;">  
                     <thead>
                       <tr>
                         <th>Puesto</th>
@@ -422,32 +440,15 @@
                         <td>14</td>
                         <td>Manuel Vargas</td>
                       </tr>
-                      <tr class="danger">
+                     <tr class="danger">
                         <td>15</td>
-                        <td>Esperanza Gomes</td>
-                      </tr>
-                      <tr class="danger">        
-                        <td>16</td>
-                        <td>Toro Max</td>
-                      </tr>
-                      <tr class="danger">
-                        <td>17</td>
-                        <td>James Rodriguez</td>
-                      </tr>
-                      <tr class="danger">
-                        <td>18</td>
-                        <td>Joan Hernandez</td>
-                      </tr>
+                        <td>Manuel Vargas</td>
 
-                      <tr class="danger">
-                        <td>19</td>
-                        <td>Sebastian Hernandez</td>
-                      </tr>      
-                      <tr class="danger">
-                        <td>20</td>
+                      </tr><tr class="danger">
+                        <td>16</td>
                         <td>Manuel Vargas</td>
                       </tr>
-                      <tr >
+                      
 
                     </tbody>
                   </table>

@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE HTML>
 <html>
  <link rel="icon" type="image/png" href="core/img/favicon.png" />
     <head>
@@ -21,12 +21,17 @@
         <center>
             <div class="col-lg-12">
                 <div class="form-group" style="background:#FFB22C; width:300px;">                     
+                    
                     <img  src="../core/img/user.png"  width="40px" style="margin-top:10px; margin-left:-100px;">                              
                     <i style="font-size:20px;">Manuel Vargas</i>
+                      &nbsp;
+                    <i class="fa fa-minus" aria-hidden="true"></i>
+                    <i class="fa fa-times " aria-hidden="true"></i>
+
                 </div>
                 <div style="background:white; width:300px; height:260px;">                  
                 </div>
-                <div style="background:purple; width:300px; height:40px; margin-top:-30px;">
+                <div style="background:red; width:300px; height:40px; margin-top:-30px;">
                    <div class="form-group has-success label-floating">                       
                         <label for="f1" class="control-label" style="color:white;">Escribir mensaje</label>
                         <input type="text" class="form-control"  style="color:white;" id="f1">                     
