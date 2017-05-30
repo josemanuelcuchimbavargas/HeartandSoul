@@ -2578,20 +2578,20 @@ fieldset[disabled] .navbar .btn-link:focus {
   color: rgba(255,255,255, 0.84);
 }
 .navbar.navbar-info {
-  background-color: white;
+  background-color:  #03658c;
   color: rgba(255,255,255, 0.84);
 }
 .navbar.navbar-info .navbar-form .form-group input.form-control::-moz-placeholder,
 .navbar.navbar-info .navbar-form input.form-control::-moz-placeholder {
-  color: black;
+  color: white;
 }
 .navbar.navbar-info .navbar-form .form-group input.form-control:-ms-input-placeholder,
 .navbar.navbar-info .navbar-form input.form-control:-ms-input-placeholder {
-  color:  black;
+  color:  white;
 }
 .navbar.navbar-info .navbar-form .form-group input.form-control::-webkit-input-placeholder,
 .navbar.navbar-info .navbar-form input.form-control::-webkit-input-placeholder {
-  color:  black;
+  color:  white;
 }
 .navbar.navbar-info .dropdown-menu {
   border-radius: 2px;

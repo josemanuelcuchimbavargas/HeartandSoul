@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
  <link rel="icon" type="image/png" href="core/img/favicon.png" />
@@ -262,9 +265,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>      
-       <i class="navbar-brand" style="color:black;">Carlos Garcia</i><img class="navbar-brand" href="javascript:void(0)" src="../core/img/user.png">  
+       <i class="navbar-brand" style="color:white;"><?php echo $_SESSION['nombre']; ?></i><img class="navbar-brand" href="javascript:void(0)" src="../core/img/user.png">  
     </div>    
-    <div  class="navbar-collapse  navbar-material-light-blue-collapse">                            
+    
+         <div class="btn-group navbar-brand">
+              <a href= data-target="#" class="btn btn-primary btn-raised dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog fa-spin  fa-fw"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="javascript:void(0)">k</a></li>
+                <li><a href="javascript:void(0)">pez</a></li>
+                <li><a href="javascript:void(0)">compa</a></li>
+                <li class="divider"></li>
+                <li><a id="cerrarSesion" name="cerrarSesion" href="javascript:void(0)">Cerrar Sesion</a></li>
+              </ul>
+            </div>
+      
+      
+      <div  class="navbar-collapse  navbar-material-light-blue-collapse">                            
       <form class="navbar-form navbar-right">
         <div class="form-group">
           <input type="text" class="form-control col-sm-8"  placeholder="Buscar">
@@ -277,36 +293,25 @@
 
 <div class="container-fluid">       
 <div class="row">
-    <div class="col-lg-12  hidden-md-up" style="position: fixed;">
+    <div class="col-lg-12  hidden-md-up">
         <div class="span11" style="overflow: auto">
-            <div class="row-fluid"  >
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-
-
-
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>   
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
-                <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>                   
+            <div class="row-fluid">
+                <center>
+                    <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                    <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                    <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                    <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>             
+                    <a id="amigo" name="amigo" style="cursor:pointer;" ><div class="circle col-lg-3"></div></a>                 
+                </center>
             </div>
         </div>             
     </div>
 </div>
   <div class="row" >
-    <div  id="chat" class="col-sm-2 hidden-md-up" style="background-color:rgba(0,0,0,0.1);">
-     <!--Bloque inicial--->          
-    <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#simple-dialog">O    pen dialog</button>-->    
+    <div  class="col-sm-2 hidden-md-up" style="background-color:rgba(0,0,0,0.1);">
+        
+        <div id="chat">
+        </div>
 
     </div>     
       <!--Modals-->
@@ -336,7 +341,7 @@
     </div>
   </div>
 </div>
-    <div class="col-sm-8" style="background-color:rgba(0,0,0,0.1);  overflow-y:hidden;margin-top: 90px; ">     	
+    <div class="col-sm-8" style="background-color:rgba(0,0,0,0.1);  overflow-y:hidden;margin-top:0px; ">     	
      		<!--Bloque medio-->        
         <div class="input-group">
       <span class="input-group-addon">
@@ -487,8 +492,21 @@
                        var contenedorPrincipal;
                        contenedorPrincipal = '<div class="container-fluid"><div class="comments-container"><ul id="comments-list" class="comments-list"><li><div class="comment-main-level"><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/18157903_1445673558817796_3598804664962280009_n.jpg?oh=e8a4f711b381d9f50811b3dbfbb0deb3&oe=59E99D70" alt=""></div> <div class="comment-box"><div class="comment-head"><h6 class="comment-name by-author"><a href="#">Manuel Vargas</a></h6><span>hace 20 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><iframe width="360" height="315" src="https://www.youtube.com/embed/6GUm5g8SG4o" frameborder="0" allowfullscreen></iframe></div></div></div><ul class="comments-list reply-list"><li><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/18485406_1413935078665016_4345483548792990133_n.jpg?oh=9c38786bd3eaec92315f2d1575b908af&oe=59A91B2F" alt=""></div><div class="comment-box"><div class="comment-head"><h6 class="comment-name"><a href="#">Sebastian Hernandez</a></h6><span>hace 10 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><p>:"v</p></div></div></li></ul></li><li><div class="comment-main-level"><div class="comment-avatar"><img src="https://scontent.feoh4-2.fna.fbcdn.net/v/t1.0-9/14494890_1648803718693611_7627774125963742039_n.jpg?oh=6815b84401f61c1aca4e4a1185aa5ec5&oe=59ABB405" alt=""></div><div class="comment-box"><div class="comment-head"><h6 class="comment-name"><a href="#">Esperanza Gomez</a></h6><span>hace 10 minutos</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content"><p> Hp que rico</p></div></div></div></li></ul></div></div>';
                        $("#noticias").html(contenedorPrincipal);
+                    
+                         $.ajax({
+                             url:'../controlador/controlSeguridad.php', 
+                             type:'POST', 
+                             dataType:'json', 
+                             data:{"accion":"1"} 
+                             }).done(function(data){                              
+                              if(data == 2){                                                                   
+                              window.location.href = "../index.php";                      
+                              }
+                          });	    
                 }
+                                                
             </script>
+            <script src="../js/acceso.js" type="text/javascript"></script>
     </body>
     
     

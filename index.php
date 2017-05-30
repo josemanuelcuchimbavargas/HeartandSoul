@@ -1,7 +1,7 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <link rel="icon" type="image/png" href="core/img/favicon.png" />
-
 
 
     <head>
@@ -11,8 +11,10 @@
         <link rel="stylesheet" type="text/css" href="core/css/main.css">        
         <link rel="stylesheet" type="text/css" href="core/libreria/materialDesing/css/bootstrap-social.css">
         <link rel="stylesheet" type="text/css" href="core/fonts/icofont/css/icofont.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/seguridad.js" type="text/javascript"></script> 
     </head>
-    <body class="url">        
+    <body class="url"  onload="validar()">        
         
 
    
@@ -45,48 +47,42 @@
 
     <div class="col-sm-4">
     
-<article id="contact">
+            <article id="contact">
+
+                            <h2 class="major"></h2>
+                            <form action="" method="POST">
+                              <div class="field half first">
+                                <label for="email">Email</label>
+                                <input class="form-control"  type="text" name="usuario" id="usuario" />
+                              </div>
+                              <div class="field half">
+                                <label for="contraseña">Contrase&ntildea</label>
+                                <input type="password"  class="form-control" name="contrasena" id="contrasena" />
+                              </div>
+
+                              <ul class="actions">
+                                <li><input type="button" id="iniciar" name="iniciar" class="btn btn-info" value="Iniciar Sesion" class="special" /></li>
+                                <li><input type="button" id="registrarse" name="registrarse" class="btn btn-danger" value="Registrarse" /></li>
+                              </ul>
+                                <div id="resultado" name="resultado"></div>
+                            </form>
+
+                              <a class="btn btn-block btn-social btn-twitter">
+                                <span class="fa fa-twitter"></span> Sign in with Twitter
+                              </a>
+
+                             <a class="btn btn-block btn-social btn-facebook">
+                                        <span class="fa fa-facebook"></span> Sign in with Facebook
+                                      </a>
 
 
+                              <a  class="btn btn-block btn-social btn-google">
+                                <span class="fa fa-google"></span> Sign in with Google
+                              </a>
 
-
-                <h2 class="major"></h2>
-                <form method="post" action="#">
-                  <div class="field half first">
-                    <label for="email">Email</label>
-                    <input class="form-control"  type="text" name="name" id="name" />
-                  </div>
-                  <div class="field half">
-                    <label for="contraseña">Contrase&ntildea</label>
-                    <input type="password"  class="form-control" name="contrasena" id="password" />
-                  </div>
-
-                  <ul class="actions">
-                    <li><input type="submit" class="btn btn-info" value="Iniciar Sesion" class="special" /></li>
-                    <li><input type="button" class="btn btn-danger" value="Registrarse" /></li>
-                  </ul>
-                </form>
-
-  <a class="btn btn-block btn-social btn-twitter">
-    <span class="fa fa-twitter"></span> Sign in with Twitter
-  </a>
-
- <a class="btn btn-block btn-social btn-facebook">
-            <span class="fa fa-facebook"></span> Sign in with Facebook
-          </a>
-
-
-  <a  class="btn btn-block btn-social btn-google">
-    <span class="fa fa-google"></span> Sign in with Google
-  </a>
-             
-              </article>
-
-
-			
-    
-  </div>
-</div>
+            </article>
+        </div>
+    </div>
 </div>
 
  <footer id="footer">
@@ -111,12 +107,12 @@
 
 
 
-                                             
-       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                                                    
        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
        <script type="text/javascript" src="js/jquery-ui.min.js" ></script>
-       <script src="js/fondo.js" type="text/javascript"></script>               
+       <script src="js/fondo.js" type="text/javascript"></script>         
+       <script src="js/acceso.js" type="text/javascript"></script>         
     </body>
    
 </html>
